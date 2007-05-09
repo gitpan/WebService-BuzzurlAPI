@@ -8,7 +8,7 @@ WebService::BuzzurlAPI::Util - Buzzurl WebService API utility module
 
 =head1 VERSION
 
-0.01
+0.02
 
 =head1 DESCRIPTION
 
@@ -26,7 +26,7 @@ our(@EXPORT_OK, $PKG_REGEXP, $VERSION);
 
 @EXPORT_OK = qw(drop_utf8flag urlencode);
 $PKG_REGEXP = qr/^WebService::BuzzurlAPI/;
-$VERSION = 0.01;
+$VERSION = 0.02;
 
 =pod
 

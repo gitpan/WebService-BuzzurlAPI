@@ -8,7 +8,7 @@ WebService::BuzzurlAPI::Response - Buzzurl WebService API response package
 
 =head1 VERSION
 
-0.01
+0.02
 
 =head1 DESCRIPTION
 
@@ -25,7 +25,7 @@ use JSON::Syck;
 __PACKAGE__->mk_accessors(qw(errstr));
 __PACKAGE__->mk_ro_accessors(qw(json res));
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 =pod
 

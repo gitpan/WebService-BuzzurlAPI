@@ -8,7 +8,7 @@ our($NUM, $OF, $THRESHOLD, $VERSION);
 $NUM       = 5;
 $OF        = 0;
 $THRESHOLD = 0;
-$VERSION   = 0.01;
+$VERSION   = 0.02;
 
 sub filter_param {
 

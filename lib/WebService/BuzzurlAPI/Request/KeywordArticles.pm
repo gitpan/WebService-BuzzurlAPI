@@ -3,6 +3,8 @@ package WebService::BuzzurlAPI::Request::KeywordArticles;
 use strict;
 use base qw(WebService::BuzzurlAPI::Request::Base);
 
+our $VERSION = 0.02;
+
 sub filter_param {
 
     my($self, $param) = @_;

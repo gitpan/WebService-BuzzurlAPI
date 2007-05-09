@@ -5,17 +5,11 @@ use warnings;
 use base qw(WebService::BuzzurlAPI::Request);
 use Carp;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub filter_param {
 
     my($self, $param) = @_;
-}
-
-sub valid_param_prepare {
-
-    my $self = shift;
-    return;
 }
 
 sub make_request_url { 

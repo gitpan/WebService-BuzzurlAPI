@@ -2,7 +2,7 @@ NAME
     WebService::BuzzurlAPI - Buzzurl WebService API
 
 VERSION
-    0.01
+    0.02
 
 SYNOPSIS
       use WebService::BuzzurlAPI;

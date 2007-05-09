@@ -8,7 +8,7 @@ WebService::BuzzurlAPI - Buzzurl WebService API
 
 =head1 VERSION
 
-0.01
+0.02
 
 =head1 SYNOPSIS
 
@@ -49,9 +49,7 @@ use WebService::BuzzurlAPI::Response;
 __PACKAGE__->mk_accessors(qw(email password));
 __PACKAGE__->mk_ro_accessors(qw(ua));
 
-our($AUTOLOAD, $VERSION);
-
-$VERSION = 0.01;
+our $VERSION = 0.02;
 
 Readonly my $API_URL_FORMAT => "http://api.buzzurl.jp/api/%s/v1/json";
 Readonly my %ALIAS_PACKAGE  => (

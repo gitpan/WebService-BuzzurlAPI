@@ -3,7 +3,7 @@ package WebService::BuzzurlAPI::Request::UrlInfo;
 use strict;
 use base qw(WebService::BuzzurlAPI::Request::Base);
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub filter_param {
 

@@ -8,7 +8,7 @@ WebService::BuzzurlAPI::Request - Buzzurl WebService API request package
 
 =head1 VERSION
 
-0.01
+0.02
 
 =head1 DESCRIPTION
 
@@ -27,7 +27,7 @@ use WebService::BuzzurlAPI::Util qw(drop_utf8flag urlencode);
 
 __PACKAGE__->mk_ro_accessors(qw(buzz uri));
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 Readonly my @OVERRIDE_METHOD => qw(
                                    filter_param
